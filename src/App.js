@@ -1,17 +1,17 @@
-import logo from './logo.svg'
-import './App.css'
-import generateStore from './Config/store'
 import { Provider } from 'react-redux'
+import { Route, Router, Routes } from 'react-router-dom'
+import './App.css'
+import Home from './views/components/Home'
+import Navbar from './views/components/Navbar'
 
 function App() {
-    const store = generateStore()
+    // const store = generateStore()
 
     return (
-        <Provider store={store}>
-            <div>
-                <h1>Hola mundo</h1>
-            </div>
-        </Provider>
+        <>
+            {/* <Navbar /> */}
+            <Home />
+        </>
     )
 }
 

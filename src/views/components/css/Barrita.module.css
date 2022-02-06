@@ -1,0 +1,15 @@
+.ingresos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid hotpink;
+    color: grey;
+    text-transform: uppercase;
+    width: 50vw;
+    min-width: 31.25rem;
+    height: 3.125rem;
+    align-items: center;
+    font-size: 1.25rem;
+    padding: 1rem;
+}

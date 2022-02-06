@@ -1,0 +1,18 @@
+.container {
+    background-color: hotpink;
+    display: flex;
+    justify-content: space-evenly;
+    height: 8vh;
+    min-height: 8vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.a {
+    text-decoration: none;
+    color: white;
+}
+
+.a:hover {
+    color: light;
+}
