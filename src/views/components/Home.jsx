@@ -16,12 +16,11 @@ const Home = () => {
               <Barrita title={'Resto'} amount={resto} />
           </div>
           <form className={style.form}>
-            <input className={style.input} type="text" placeholder='Ingreso total'/>
+            <input className={style.input} type="text" placeholder='Ingreso'/>
             <button type='submit' className={style.pinkBtn}>Ingresar</button>
           </form>
           <form className={style.form}>
-            <input className={style.input} type="text" placeholder='concepto'/>
-            <input className={style.input} type="number" placeholder='monto con decimales'/>
+            <input className={style.input} type="number" placeholder='Gasto'/>
             <button type='submit' className={style.pinkBtn}>Ingresar</button>
           </form>
       </div>
