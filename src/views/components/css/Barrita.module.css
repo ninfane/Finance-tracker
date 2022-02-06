@@ -1,7 +1,15 @@
-.container {
+.ingresos {
     display: flex;
-    flex-direction: column;
-    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 3rem;
+    border: 1px solid hotpink;
+    color: grey;
+    text-transform: uppercase;
+    width: 50vw;
+    min-width: 31.25rem;
+    height: 3.125rem;
+    align-items: center;
+    font-size: 1.25rem;
+    padding: 1rem;
 }

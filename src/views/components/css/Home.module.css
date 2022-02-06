@@ -1,1 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
 
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: 50vw;
+    min-width: 31.25rem;
+}
+
+.input {
+    /* min-width: 13.2rem; */
+    height: 3.125rem;
+    border: 1px solid hotpink;
+}
+
+::placeholder {
+    color: grey;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+input:focus {
+    outline: 1px solid hotpink;
+    border: 1px solid hotpink;
+    color: grey;
+}
+
+.pinkBtn {
+    background-color: hotpink;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 3.125rem;
+}
