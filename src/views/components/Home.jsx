@@ -6,13 +6,13 @@ const Home = () => {
   const [ingresos, setIngresos] = useState(0);
   const [inputIngreso, setInputIngreso] = useState('');
   const [inputGasto, setInputGasto] = useState('');
-  const [gastos, setGastos] = useState(100);
+  const [gastos, setGastos] = useState(0);
   const [resto, setResto] = useState('');
 
   useEffect(() => {
     setResto(parseInt(ingresos) - parseInt(gastos));
   })
-  
+
   const submitIngreso = (e) => {
     e.preventDefault();
     setIngresos(inputIngreso);
