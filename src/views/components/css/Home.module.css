@@ -43,3 +43,12 @@ input:focus {
     cursor: pointer;
     height: 3.125rem;
 }
+
+input[type='number'] {
+    -moz-appearance: textfield;
+    padding-left: 0.75rem;
+}
+
+input::-webkit-input-placeholder {
+    padding: 0;
+}
